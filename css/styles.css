@@ -1,0 +1,51 @@
+body {
+  background-color: lightblue;
+  font-family: monospace;
+}
+
+article, section {
+  width: 30%;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: solid 1px;
+  border-radius: 2rem;
+  background-color: white;
+}
+
+a, a:visited, a:hover, a:active {
+  color: blue;
+}
+
+li {
+  line-height: 2rem
+}
+
+#navigation ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+
+#profile-content {
+  text-align: center;
+}
+
+#profile-picture {
+  width: 15rem;
+}
+
+#profile-picture, h2 {
+  font-family: "Courier New";
+}
+
+#profile-picture, figcaption {
+  font-size: 1.3rem;
+}
+
+#redirect-to-top {
+  margin: 2rem 1rem;
+  width: 4rem;
+  height: 4rem;
+  float: right;
+}
